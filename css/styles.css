@@ -1,0 +1,213 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*
+Google fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=B612&family=Crimson+Pro&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	background-color: turquoise;
+}
+
+header h1{
+	font-size: 7em;
+	color: black;
+	margin-left: 8%;
+	font-family: 'Crimson Pro', serif;
+	text-align: right;
+	background-color: turquoise;
+}
+
+header h2{
+	font-size: 3em;
+	color: red;
+	margin-left: 10%;
+	text-align: right;
+}
+
+.hnav{
+	width: 100%;
+	background-color:#373232;
+	min-height: 50px;
+	text-align: center;
+	padding: .8em;
+	color:blue;
+	
+	
+}
+
+.hnav ul{
+	display: block;
+	color: turquoise;
+	background-color: turquoise;
+}
+
+.hnav ul li{
+	display: inline-block;
+	list-style-type: none;
+	width: 10%;
+	padding: 2%;
+}
+
+.hnav a{
+	text-decoration: center;
+	color: #e4f2ea;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: 'Crimson Pro', serif;
+}
+.hnav a:hover{
+	background-color:black;
+	color: black;
+}
+header{
+	min-height: 400px;
+	background-color:turquoise;
+	background-image: url("../images/appearance_beagle.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+	text-align: right;
+}
+
+
+main{
+	width: 100%;
+	min-height: 500px;
+}
+
+#container{
+	margin: 0 auto;
+	width: 80%;
+	min-height: 500px;
+	font-size: 1.8em;
+	font-family: 'Crimson Pro', serif;
+    background-color: purple;
+    text-decoration-color: purple;
+}
+
+#container img{
+	float: left;
+	margin-right: 2%;
+	border: 20px double purple;
+	border-radius: 10px;
+	text-align: right;
+
+}
+
+h1{
+	font-family: 'B612', sans-serif;
+font-family: 'Crimson Pro', serif;
+}
+
+h2{
+	font-family: 'B612', sans-serif;
+font-family: 'Crimson Pro', serif;
+}
+
+
+blockquote{
+	font-size: 3em;
+	color: black;
+	font-family: 'Crimson Pro', serif;
+	margin-bottom: 0.1em;
+}
+
+
+table{
+	
+}
+
+
+
+footer{
+	min-height: 300px;
+	background-color:black;
+	text-align: center;
+	color:purple;
+    padding-top: 5%;
+}
+
+.fnav{
+	width: 100%;
+	background-color: purple;
+	min-height: 20px;
+	text-align: center;
+	padding-bottom: .8em;
+	
+}
+
+
+
+.fnav ul{
+	display: block;
+	padding-top: .8em;
+	
+}
+
+.fnav a:hover{
+	background-color: #A68160;
+	color: #11181e;
+}
+
+/*Style rule for form element */
+	form {
+		background-color: #e4f2ea;
+		padding: 1em;
+		text-align: right;
+		
+	}
+	
+	/* Style rule for paragraph within form element */
+	form p {
+		color: #000000;
+	}
+
+form ledgend{
+	padding-right: 8em;
+}
+
+form ul{
+	padding-left: 5em;
+}
+
+form li{
+	padding-right: 16em;
+	list-style-type: none;
+}
+
+form div{
+	padding-right: 4em;
+}
+
+.img{
+	width: 45%;
+}
+.text{
+	margin: 0 auto;
+	width: 80%;
+	min-height: 500px;
+font-family: 'Crimson Pro', serif;
+	text-align: right;
+	vertical-align: text-top;
+	font-size: 1.8em;
+	
+}
+
+#social img{
+	align-content: center;
+}
+
+#button{
+	text-align: center;
+	padding: inherit;
+	
+}

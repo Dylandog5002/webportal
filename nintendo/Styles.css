@@ -1,0 +1,129 @@
+/* CSS Grid Document */
+body, div, h1, h2, h3, h4, h5, h6, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background:#F2041B;
+    color: white;
+    font-size: 1.5em;
+	text-align: center;
+	text-decoration-color: white;
+	 
+	
+}
+
+
+header {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Style rules for the NAV */
+nav{
+      color: brown;
+      margin-bottom: 1%;
+      padding: 1%;
+}
+
+nav ul{
+      list-style-type: none;
+      text-align: center;
+}
+
+nav li {
+      font-size: 1.5em;
+      font-family: 'Francois One', sans-serif;
+      border-style: solid #fff;
+      border: 2px solid red;
+      border-radius: 5px;
+}
+
+nav li:first-child {
+      border-top: none;
+}
+
+nav li a{
+      color: white;
+      padding: 0.5em 1em;
+      text-decoration: none;
+      list-style-type: none;
+}
+.menus {
+  background: red;
+  grid-area: menus;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  color: red;
+  padding-left: 16em;
+  padding-right: 16em;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+.menus * {
+  padding: 5px;
+}
+
+.cssGrid {
+    display: block;
+    width: 150%;
+	
+}
+
+.box1 {
+	background-color: red;
+	color: #fff;
+	opacity: .9;
+	border: .2px solid red;
+	border-radius: 5px;
+}
+
+#c{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+     /* Closing Media Query Tablet */
+    
+    /* Media Query Desktop */
+    @media screen and (min-width : 1083px ){
+        
+    } /* Closing Media Query Desktop */
+    
+    /* Media Query Large Screen */
+    @media screen and (min-width: 1250px) {
+		.cssGrid{
+			width: 1250px;
+			margin: 0 auto;
+			
+		}
+    }
+    
+/* End CSS Grid Code here */
+
+footer {
+    width: 100%;
+    padding: 5% 0 10% 0;
+    font-size: .75em;
+    text-align: center;
+    background-color: #FE7F2D;
+    color: #FA0105;
+    
+}
+.Home {
+}
