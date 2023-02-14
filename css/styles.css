@@ -23,7 +23,7 @@ header h1{
 	color: black;
 	margin-left: 8%;
 	font-family: 'Crimson Pro', serif;
-	text-align: right;
+	text-align: center;
 	background-color: turquoise;
 }
 
@@ -31,7 +31,7 @@ header h2{
 	font-size: 3em;
 	color: red;
 	margin-left: 10%;
-	text-align: right;
+	text-align: center;
 }
 
 .hnav{
