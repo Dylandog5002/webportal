@@ -130,7 +130,11 @@ table{
 
 #button{
 	text-align:center;
-
+margin: 0 auto;
+	width: 80%;
+	min-height: 500px;
+	font-size: 1.8em;
+	font-family: 'Crimson Pro', serif;
 }
 
 footer{
